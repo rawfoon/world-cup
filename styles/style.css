@@ -74,6 +74,7 @@ top section start
         
         .top-section-img img {
             width: 100%;
+            display: block;
         }
         /* --------------
 top section end
