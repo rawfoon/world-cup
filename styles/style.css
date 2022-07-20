@@ -194,7 +194,7 @@ footer start
         }
         
         .footer-item-container {
-            margin: 5%;
+            /* margin: 0 5%; */
         }
         
         .footer-container h1 {
@@ -228,6 +228,7 @@ footer start
             display: flex;
             align-items: center;
             justify-content: center;
+            margin-bottom: 0;
         }
         
         .social-icons ul li {
