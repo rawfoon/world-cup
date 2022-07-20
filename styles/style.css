@@ -12,7 +12,7 @@
         .container {
             max-width: 1321px;
             margin: auto;
-            margin-bottom: 150px;
+            margin-bottom: 50px;
         }
         
         .half-width {
@@ -33,6 +33,7 @@ top section start
             display: flex;
             padding: 0 106px;
             border-radius: 30px;
+            margin: 5%;
         }
         
         .top-section-info {
@@ -80,6 +81,7 @@ middle section start
             display: grid;
             grid-template-columns: 312px auto;
             gap: 24px;
+            margin: 5%;
         }
         
         .button-contaier {
@@ -152,6 +154,26 @@ middle section start
             font-weight: 500;
             padding: 5px 15px;
         }
+        
+        .view-all {
+            display: none;
+            margin: 60px auto;
+            width: 131px;
+            height: 47px;
+        }
+        
+        .view-all a {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            padding: auto;
+            text-align: center;
+            color: #FFFFFF;
+            background-color: #DD0000;
+            padding: 12px 16px;
+            border-radius: 5px;
+        }
         /* --------------
 middle section end
 ----------------- */
@@ -169,6 +191,10 @@ footer start
             max-width: 1321px;
             margin: auto;
             padding-top: 50px;
+        }
+        
+        .footer-item-container {
+            margin: 5%;
         }
         
         .footer-container h1 {
@@ -227,9 +253,6 @@ footer end
         /* Small devices (landscape phones, 576px and up) */
         
         @media screen and (max-width: 576px) {
-            .container {
-                width: 100%;
-            }
             .top-section {
                 flex-direction: column;
                 padding: 0 5%;
@@ -251,7 +274,10 @@ footer end
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 24px;
-                overflow: hidden;
+                width: 100%;
+                height: 30px;
+                overflow: hidden !important;
+                white-space: nowrap;
                 text-overflow: ellipsis;
             }
             .top-section .half-width img {
@@ -278,7 +304,56 @@ footer end
         }
         /* Medium devices (tablets, 768px and up) */
         
-        @media screen and (max-width: 768px) {}
+        @media screen and (max-width: 768px) {
+            .top-section {
+                padding: 0 5%;
+                max-width: 768px;
+            }
+            .top-section-info {
+                padding-left: 5%;
+            }
+            .top-section-info h1 {
+                width: 100%;
+                margin-top: 50px;
+                font-size: 40px;
+                line-height: 50px;
+            }
+            .top-section-info p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                margin-bottom: 14px;
+                padding: 0;
+                width: 100%;
+                height: 30px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+            .top-section-info a {
+                padding: 10px 15px;
+            }
+            .middle-section-cotainer {
+                grid-template-columns: 1fr;
+                margin: auto 5%;
+            }
+            .button-contaier {
+                flex-direction: row;
+                height: auto;
+                gap: 1rem;
+                background-color: transparent;
+            }
+            .middle-btn-item {
+                width: 100%;
+                text-align: center;
+            }
+            .middle-card-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .view-all {
+                display: block;
+            }
+        }
         /* Large devices (desktops, 992px and up) */
         
         @media screen and (max-width: 992px) {}
