@@ -147,3 +147,67 @@ middle section start
         /* --------------
 middle section end
 ----------------- */
+        /* --------------
+footer start
+----------------- */
+        
+        footer {
+            height: 444px;
+            color: #FFFFFF;
+            background-color: #161616;
+        }
+        
+        .footer-container {
+            max-width: 1321px;
+            margin: auto;
+            padding-top: 50px;
+        }
+        
+        .footer-container h1 {
+            text-align: center;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 60px;
+        }
+        
+        footer ul li {
+            list-style: none;
+        }
+        
+        .footer-option ul {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        
+        .footer-option ul li a {
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #B9B9B9;
+        }
+        
+        .social-icons ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .social-icons ul li {
+            margin: 10px;
+        }
+        
+        .social-icons ul li a {
+            text-decoration: none;
+            color: #DD0000;
+        }
+        
+        .social-icons ul li a :hover {
+            color: #1DA1F2;
+        }
+        /* --------------
+footer end
+----------------- *
