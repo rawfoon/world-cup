@@ -368,6 +368,9 @@ footer end
                 grid-template-columns: 1fr;
                 margin: auto 5%;
             }
+            .button-contaier {
+                background-color: transparent;
+            }
             .middle-card-container {
                 grid-template-columns: 1fr;
             }
