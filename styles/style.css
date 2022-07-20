@@ -83,14 +83,14 @@ top section end
 middle section start
 ----------------- */
         
-        .middle-section-cotainer {
+        .middle-section-container {
             display: grid;
             grid-template-columns: 312px auto;
             gap: 24px;
             margin: 5%;
         }
         
-        .button-contaier {
+        .button-container {
             width: 100%;
             height: 312px;
             display: flex;
@@ -222,6 +222,7 @@ middle section start
         
         .group-card-item {
             width: 100%;
+            padding-bottom: 5%;
         }
         
         .group-card-item h2 {
@@ -364,11 +365,11 @@ footer end
                 left: 50%;
                 margin-top: 35px;
             }
-            .middle-section-cotainer {
+            .middle-section-container {
                 grid-template-columns: 1fr;
                 margin: auto 5%;
             }
-            .button-contaier {
+            .button-container {
                 background-color: transparent;
             }
             .middle-card-container {
@@ -408,11 +409,11 @@ footer end
             .top-section-info a {
                 padding: 10px 15px;
             }
-            .middle-section-cotainer {
+            .middle-section-container {
                 grid-template-columns: 1fr;
                 margin: auto 5%;
             }
-            .button-contaier {
+            .button-container {
                 flex-direction: row;
                 height: auto;
                 gap: 1rem;
