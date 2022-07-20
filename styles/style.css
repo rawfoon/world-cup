@@ -303,6 +303,7 @@ footer start
             gap: 40px;
             flex-wrap: wrap;
             margin-bottom: 30px;
+            padding: 5%;
         }
         
         .footer-option ul li a {
