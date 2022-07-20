@@ -324,6 +324,7 @@ footer start
             align-items: center;
             justify-content: center;
             margin-bottom: 0;
+            padding: 0;
         }
         
         .social-icons ul li {
