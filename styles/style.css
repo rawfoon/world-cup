@@ -22,6 +22,7 @@
         #bg-red {
             background-color: #DD0000;
             color: #FFFFFF;
+            border: transparent;
         }
         /* --------------
 top section start
@@ -102,7 +103,14 @@ middle section start
             background-color: #FFFFFF;
             font-size: 20px;
             font-weight: 500;
+            border: 1px solid #E8E8E8;
             border-radius: 10px;
+        }
+        
+        .middle-btn-item:hover {
+            background-color: #DD0000;
+            color: #FFFFFF;
+            border: transparent;
         }
         
         .middle-card-container {
@@ -152,7 +160,7 @@ footer start
 ----------------- */
         
         footer {
-            height: 444px;
+            /* height: 444px; */
             color: #FFFFFF;
             background-color: #161616;
         }
@@ -211,3 +219,73 @@ footer start
         /* --------------
 footer end
 ----------------- *
+
+
+
+
+/* responsive start */
+        /* Small devices (landscape phones, 576px and up) */
+        
+        @media screen and (max-width: 576px) {
+            .container {
+                width: 100%;
+            }
+            .top-section {
+                flex-direction: column;
+                padding: 0 5%;
+                margin: 5%;
+            }
+            .top-section-info {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .top-section-info h1 {
+                width: 100%;
+                font-size: 22px;
+                line-height: 33px;
+                text-align: center;
+            }
+            .top-section-info p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .top-section .half-width img {
+                width: 100%;
+                position: relative;
+                top: 50%;
+                left: 50%;
+                margin-top: 35px;
+            }
+            .middle-section-cotainer {
+                grid-template-columns: 1fr;
+                margin: auto 5%;
+            }
+            .middle-card-container {
+                grid-template-columns: 1fr;
+            }
+            .footer-option ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            .social-icons ul {
+                margin-bottom: 0;
+            }
+        }
+        /* Medium devices (tablets, 768px and up) */
+        
+        @media screen and (max-width: 768px) {}
+        /* Large devices (desktops, 992px and up) */
+        
+        @media screen and (max-width: 992px) {}
+        /* X-Large devices (large desktops, 1200px and up) */
+        
+        @media screen and (max-width: 1200px) {}
+        /* XX-Large devices (larger desktops, 1400px and up) */
+        
+        @media screen and (max-width: 1400px) {}
+        /* responsive end */
