@@ -34,6 +34,7 @@ top section start
             padding: 0 106px;
             border-radius: 30px;
             margin: 5%;
+            overflow: hidden;
         }
         
         .top-section-info {
@@ -44,7 +45,7 @@ top section start
             font-size: 70px;
             font-weight: 700;
             line-height: 70px;
-            margin-top: 111px;
+            margin-top: 90px;
             margin-bottom: 20px;
         }
         
@@ -75,6 +76,17 @@ top section start
         .top-section-img img {
             width: 100%;
             display: block;
+            position: relative;
+            animation: messi 2s linear infinite alternate;
+        }
+        
+        @keyframes messi {
+            0% {
+                left: 0;
+            }
+            100% {
+                left: 100px;
+            }
         }
         /* --------------
 top section end
@@ -357,6 +369,9 @@ footer end
                 overflow: hidden !important;
                 white-space: nowrap;
                 text-overflow: ellipsis;
+            }
+            .top-section-img {
+                margin: auto;
             }
             .top-section .half-width img {
                 width: 100%;
