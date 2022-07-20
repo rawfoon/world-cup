@@ -190,7 +190,7 @@ middle section start
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 5%;
+            padding: 10% 5% 5%;
         }
         
         .match-card-img {
@@ -212,6 +212,42 @@ middle section start
             text-align: center;
             color: #4D4D4D;
         }
+        /* group card */
+        
+        .group-card-item {
+            width: 100%;
+        }
+        
+        .group-card-item h2 {
+            text-align: center;
+        }
+        
+        .group-item-1 {
+            display: flex;
+            justify-content: space-between;
+            padding: 5%;
+        }
+        
+        .group-item-1 img {
+            width: 30%;
+            border-radius: 50%;
+        }
+        
+        .group-item-1 h3 {
+            width: 50%;
+        }
+        
+        .group-item-1:nth-child(2n) {
+            background-color: #47f7ff63;
+            margin: 0 5%;
+            border-radius: 5px;
+        }
+        
+        .group-item-1:nth-child(2n+1) {
+            background-color: #ff634740;
+            margin: 0 5%;
+            border-radius: 5px;
+        }
         /* --------------
 middle section end
 ----------------- */
@@ -220,9 +256,9 @@ footer start
 ----------------- */
         
         footer {
-            /* height: 444px; */
             color: #FFFFFF;
             background-color: #161616;
+            padding-bottom: 40px;
         }
         
         .footer-container {
