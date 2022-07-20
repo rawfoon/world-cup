@@ -61,7 +61,7 @@ top section start
             text-decoration: none;
             padding: 16px 25px;
             border-radius: 5px;
-            transition: ease-out 0.5s;
+            transition: box-shadow ease-out 0.5s;
         }
         
         .top-section-info a:hover {
