@@ -61,6 +61,11 @@ top section start
             text-decoration: none;
             padding: 16px 25px;
             border-radius: 5px;
+            transition: ease-out 0.5s;
+        }
+        
+        .top-section-info a:hover {
+            box-shadow: inset 200px 0 0 0 rgb(162, 72, 214);
         }
         
         .top-section-info a span {
@@ -118,7 +123,7 @@ middle section start
             border-radius: 10px;
         }
         
-        .middle-btn-item:hover {
+        .middle-btn-item a:hover {
             background-color: #DD0000;
             color: #FFFFFF;
             border: transparent;
